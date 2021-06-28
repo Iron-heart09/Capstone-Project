@@ -1,0 +1,574 @@
+/*This section of the scss is for the Home page of the webpage*/
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "sans-serif";
+}
+
+button {
+  font-family: "Poppins", "sans-serif";
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  color: #c36cbb;
+}
+
+.logo-container .nav-area .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 50px;
+  height: 50px;
+}
+
+.image {
+  position: left;
+  right: 300px;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.introduction {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 44px;
+  font-weight: 500;
+  margin-top: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#494964), to(#9191a1));
+  background: linear-gradient(to right, #494964, #6f6f89);
+  background-clip: text;
+}
+
+.intro-text p {
+  margin-top: 30px;
+  font-size: 22px;
+  color: #585772;
+}
+
+.details {
+  padding: 50px 0px 0px 0px;
+}
+
+.details-select {
+  border: 2px solid #c36cbb;
+  background: transparent;
+  color: #c36cbb;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cover {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60vh;
+}
+
+.cover img {
+  height: 100%;
+  -webkit-filter: drop-shadow(0px 5px 3px #111111);
+          filter: drop-shadow(0px 5px 3px #111111);
+  -webkit-animation: drop 1.5s ease;
+          animation: drop 1.5s ease;
+}
+
+/*The .big-circle, .medium-circle and .small-circle is used to design the background of the home page*/
+.big-circle {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.5;
+  height: 80%;
+}
+
+.medium-circle {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  z-index: -1;
+  height: 60%;
+  opacity: 0.4;
+}
+
+.small-circle {
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
+  z-index: -1;
+}
+
+@-webkit-keyframes drop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .introduction {
+    margin-top: 5vh;
+    text-align: center;
+  }
+  .intro-text h1 {
+    font-size: 70px;
+    color: #111111;
+  }
+  .intro-text p {
+    font-size: 18px;
+  }
+  .details {
+    padding: 10px 0px 0px 0px;
+  }
+  .cover img {
+    height: 70%;
+  }
+  .small-circle .medium-circle .big-circle {
+    opacity: 0.2;
+    /* this is for the transparency of the circles used for the backgroung*/
+  }
+}
+
+/* This section of the css is for the Evoution of A.I. webpage*/
+.container__image {
+  height: 500px;
+  width: 500px;
+  margin-top: 100px;
+}
+
+.container__text {
+  float: left;
+}
+
+.text h3 p {
+  margin-top: 500px;
+  width: 50px;
+  float: left;
+  font-size: 16px;
+}
+
+.intro-text2 p {
+  margin-top: 10px;
+  font-size: 22px;
+  background-color: #c36cbb;
+  color: #585772;
+}
+
+.image1 {
+  width: 250px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+/* This section of the css is for the Future os A.I. webpage*/
+.intro-text1 p {
+  margin-top: 10px;
+  font-size: 22px;
+  background-color: #c36cbb;
+  color: #585772;
+}
+
+.container__image1 {
+  height: 400px;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.text1 h3 p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50px;
+  float: left;
+  font-size: 16px;
+}
+
+/* This section of the css is for the Table*/
+/* This is to set the width and top margin of the table */
+table {
+  width: 600px;
+  margin-top: 50px;
+}
+
+/* the padding is to set the space between the border of each table cell and its contents */
+td {
+  padding: 7px 10px 10px 10px;
+}
+
+/* text-transform is for converting the content of the table headers to uppercase */
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999;
+  text-align: left;
+}
+
+.even {
+  background-color: #6f6f89;
+}
+
+/* :hover is used to highlight a table row when a user's mouse goes over it */
+tr:hover {
+  background-color: #c36cbb;
+}
+
+.number {
+  text-align: right;
+}
+
+.contactus {
+  padding: 10% 20%;
+  text-align: center;
+}
+
+.form_input {
+  margin-bottom: 15px;
+}
+
+.form_input input[type="text"] {
+  width: 500px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid #c36cbb;
+}
+
+.btn button {
+  border: 0;
+  padding: 10px 30px;
+  background: #c36cbb;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff
+}
+
+.btn button:hover {
+  background-color: #718a8e;
+}
+
+
+.form_input textarea {
+  width: 500px;
+  padding: 12px 20px;
+  height: 80px;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #c36cbb;
+}
+
+/*Comments section*/
+.comment-box {
+  top: 150px;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%,-50%);
+  width: 500px;
+}
+
+.comment-box input {
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #c36cbb;
+}
+
+.comment-box input:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+
+.comment-box textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #c36cbb;
+}
+
+.comment-box textarea:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+
+.comment-box button {
+  border: 0;
+  padding: 10px 30px;
+  background: #c36cbb;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff
+}
+
+.comment-box button:hover {
+  background-color: #718a8e;
+}
+
+
+/* Footer section*/
+
+footer {
+  width: 100%;
+  background-color: #c36cbb;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h2 {
+  color: #494964;
+  margin-bottom: 22px;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.cardtwo {
+  max-width: 50%;
+}
+
+.cardtwo p {
+  color: #eee;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.email input {
+  padding: 14px;
+  border-radius: 50px;
+  width: 60%;
+  margin-right: 24px;
+}
+
+.btn {
+  border-radius: 200px;
+  background: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.fas-fa-arrow-right {
+  margin-left: 5px;
+}
+
+/*Drop-down menu*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #e3e3e3;
+  position: relative;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: #292929;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+ul li:hover {
+  background: rgb(223, 164, 210);
+}
+
+ul ul {
+  position: absolute;
+  min-width: 200px;
+  background: lightgrey;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+  background: #e3e3e3;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+ul li i {
+  color: #292929;
+  float: right;
+  padding-left: 20px;
+}
+
+nav div {
+  background: lightgrey;
+  color: #292929;
+  font-size: 24px;
+  padding: 0.6em;
+  cursor: pointer;
+  display: none;
+}
+
+@media(max-width: 768px) {
+  nav div {
+        display: block;
+  }
+
+  ul {
+        display: none;
+        position: static;
+        background: #e3e3e3;
+  }
+
+  ul li {
+        display: block;
+  }
+
+  ul ul {
+        position: static;
+        background: #e3e3e3;
+  }
+}
+
+/* Hide and Show function*/
+
+#hide {
+  border: 0;
+  padding: 10px 30px;
+  background: #c36cbb;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff
+}
+
+#show {
+  border: 0;
+  padding: 10px 30px;
+  background: #c36cbb;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff
+}
+
+/*Typewriter effect*/
+.typed-cursor {
+  font-size: 45px;
+  color: #ffffff;
+}
+
+/* For the save table button*/
+
+#btnsave {
+  border: 0;
+  padding: 10px 30px;
+  background: #c36cbb;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff
+}
+
+/*For the forms*/
+
+
+input[type=button]{ 
+  width: auto;
+  float: absolute;
+  cursor: pointer;
+  border: 0;
+  padding: 10px 30px;
+  background: #c36cbb;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Poppins", "sans-serif";
+}
+/*# sourceMappingURL=style.css.map */

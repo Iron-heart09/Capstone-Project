@@ -1,0 +1,417 @@
+/*This section of the scss is for the Home page of the webpage*/ 
+// Variables
+$color-greyish: #5f5f79;
+$color-pink: #c36cbb;
+$color-brownish: #333;
+$color-grey1: #6f6f89;
+$color-blueish: #494964;
+$color-grey2: #585772;
+$color-black: #111111;
+$color-offwhite: #999;
+$wt: #fff;
+$bdc: #eee;
+$blue: #8a90ff;
+$gradient: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+
+$font-family: 'Poppins', 'sans-serif';
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $font-family;
+}
+
+button {
+	font-family: $font-family;
+}
+
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+h1 {
+	color: $color-pink;
+}
+
+.logo-container {
+	.nav-area {
+		.details {
+			display: flex;
+		}
+	}
+}
+
+.logo-container {
+	flex: 1;
+  width: 50px;
+  height: 50px;
+}
+
+.image{
+	position: left;
+	right:300px;
+	width: 50px;
+	height: 50px;
+  }
+
+.nav-area  {
+	justify-content: space-around;
+	list-style: none;
+  
+}
+
+.nav-area {
+	li {
+		display: inline-block;
+	}
+}
+
+.nav-area {
+	li {
+		a {
+			color: $color-greyish;
+			text-decoration: none;
+			padding: 5px 20px;
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.nav-area {
+	li {
+		a:hover {
+			background: $color-pink;
+			color: $color-brownish;
+		}
+	}
+}
+
+.nav-link {
+	color: $color-greyish;
+	font-size: 18px;
+	text-decoration: none;
+  
+}
+
+.presentation {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+.introduction {
+	flex: 1;
+}
+
+.intro-text {
+	h1 {
+		font-size: 44px;
+		font-weight: 500;
+		margin-top: 50px;
+		background: linear-gradient(to right, $color-blueish, $color-grey1);
+		background-clip: text;
+		
+	}
+}
+
+.intro-text {
+	p {
+		margin-top: 30px;
+		font-size: 22px;
+		color: $color-grey2;
+	}
+}
+
+.details {
+	padding: 50px 0px 0px 0px;
+}
+.details-select {
+	border: 2px solid $color-pink;
+	background: transparent;
+	color: $color-pink;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.cover {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+}
+
+.cover {
+	img {
+		height: 100%;
+		filter: drop-shadow(0px 5px 3px $color-black);
+		animation: drop 1.5s ease;
+	}
+}
+
+/*The .big-circle, .medium-circle and .small-circle is used to design the background of the home page*/
+.big-circle {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+	opacity: 0.5;
+	height: 80%;
+}
+.medium-circle {
+	position: absolute;
+	top: 30%;
+	right: 30%;
+	z-index: -1;
+	height: 60%;
+	opacity: 0.4;
+}
+.small-circle {
+	position: absolute;
+	bottom: 0%;
+	left: 20%;
+	z-index: -1;
+}
+
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.presentation {
+		flex-direction: column;
+	}
+	.introduction {
+		margin-top: 5vh;
+		text-align: center;
+	}
+	.intro-text {
+		h1 {
+			font-size: 70px;
+			color: $color-black;
+		}
+	}
+	.intro-text {
+		p {
+			font-size: 18px;
+		}
+	}
+	.details {
+		padding: 10px 0px 0px 0px;
+	}
+	.cover {
+		img {
+			height: 70%;
+		}
+	}
+	.small-circle {
+		.medium-circle {
+			.big-circle {
+				opacity: 0.2; /* this is for the transparency of the circles used for the backgroung*/
+			}
+		}
+	}
+}
+
+/* This section of the css is for the Evoution of A.I. webpage*/
+.container__image {
+	height: 500px;
+	width: 500px;
+	margin-top: 100px;
+}
+
+.container__text {
+	float: left;
+}
+
+.text {
+	h3 {
+		p {
+				margin-top: 500px;
+				width: 50px;
+				float: left;
+				font-size: 16px;
+			}
+	}
+}
+
+.intro-text2 {
+	p {
+		margin-top: 10px;
+		font-size: 22px;
+		background-color: $color-pink;
+		color: $color-grey2;
+	}
+}
+
+.image1 {
+	width: 250px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+/* This section of the css is for the Future os A.I. webpage*/
+.intro-text1{
+	p {
+		margin-top: 10px;
+		font-size: 22px;
+		background-color: $color-pink;
+		color: $color-grey2;
+	}
+}
+
+.container__image1 {
+	height: 400px;
+	width: 500px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+
+.text1{
+	h3{
+		p{
+			margin-top: 50px;
+			margin-bottom: 50px;
+			width: 50px;
+			float: left;
+			font-size: 16px;
+		}
+	}
+}
+/* This section of the css is for the Table*/
+/* This is to set the width and top margin of the table */
+table {
+	width: 600px;
+	margin-top: 50px;
+}
+
+/* the padding is to set the space between the border of each table cell and its contents */
+	td{
+		padding: 7px 10px 10px 10px;
+	}
+
+
+/* text-transform is for converting the content of the table headers to uppercase */
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 90%;
+	border-bottom: 2px solid $color-black;
+	border-top: 1px solid $color-offwhite;
+	text-align: left;
+}
+ 
+.even {
+	background-color: $color-grey1;
+}
+
+/* :hover is used to highlight a table row when a user's mouse goes over it */
+tr:hover {
+	background-color: $color-pink;
+}
+
+.number {
+	text-align: right;
+}
+
+.contactus {
+	padding: 5% 10%;
+	text-align: center;
+}
+
+.form_input{
+	margin-bottom: 15px;
+}
+
+.form_input {
+	input[type="text"]{
+		width: 250px;
+		padding: 12px 20px;
+		border: 1px solid #ccc;
+	}
+}
+
+.form_input {
+	textarea {
+		width: 250px;
+		padding: 12px 20px;
+		height: 80px;
+		resize: none;
+		border: 1px solid #ccc;
+	}
+}
+
+
+footer {
+	width: 100%;
+	background-color: $color-pink;
+	align-items: center;
+	  h2 {
+		color: $color-blueish;
+		margin-bottom: 22px;
+		font-weight: 400;
+		font-size: 21px;
+	  }
+	}
+
+.wrapper {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+  }
+
+ 
+
+.cardtwo {
+	  max-width: 50%;
+	  p {
+		color: $bdc;
+		font-size: 15px;
+		font-weight: 300;
+	  }
+	}
+
+ .email {
+		display: flex;
+		align-items: center;
+		padding: 20px 0;
+		input {
+		  padding: 14px;
+		  border-radius: 50px;
+		  width: 60%;
+		  margin-right: 24px;
+		}
+	}
+.btn {
+		  border-radius: 200px;
+		  background: none;
+		  color: $wt;
+		  font-weight: 500;
+}
+
+
+.fas-fa-arrow-right  {
+	margin-left: 5px;
+  }
+
+ 
