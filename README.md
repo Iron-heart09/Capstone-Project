@@ -2,7 +2,7 @@
 This project is focused on Javascript functionality and how to use the language to enhance a basic site. In this project Javascript is used to create a website with background functionality and animations.
 
 ## Table of contents
-* [Desrciption](#Capstone-Project)
+* [Description](#Capstone-Project)
 * [How to install](#Installation)
 * [How to use](#Usage)
 
@@ -16,4 +16,4 @@ To install the project locally:
 ## Usage
 To use this project, open in a suitable web browser.
 * ! [Project in action]
-* [https://www.dropbox.com/s/mkk64nipwfe8h2p/Artificial%20Intelligence%20Technology%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%202021-06-29%2005-35-25.mp4?dl=0]
+* [file:///C:/Users/Thinkpad%20T490/Dropbox/Audrey%20Vimbai%20moyo-90611/1.%20Programming%20and%20Web%20Development%20Basics/Task%2020/Task%2020/index.html]
