@@ -16,4 +16,4 @@ To install the project locally:
 ## Usage
 To use this project, open in a suitable web browser.
 * ! [Project in action]
-* [file:///C:/Users/Thinkpad%20T490/Dropbox/Audrey%20Vimbai%20moyo-90611/1.%20Programming%20and%20Web%20Development%20Basics/Task%2020/Task%2020/index.html]
+* ![Capstone-Project](https://user-images.githubusercontent.com/86072654/123883634-b9530d80-d949-11eb-953f-d72deed5df6b.gif)
